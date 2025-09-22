@@ -18,7 +18,6 @@ All data persistence is minimal and temporary. Upon migration to mainnet, this s
 
 - **Runtime**: Node.js 18+
 - **Framework**: Express.js
-- **Database**: MySQL (for session and metadata indexing only)
 - **Storage**: Local filesystem (temporary uploads) — to be deprecated on mainnet
 - **Blockchain Integration**: Irys SDK (v1.x) for anchoring files to Sepolia testnet
 - **Authentication**: WalletConnect + EIP-191 signature verification
